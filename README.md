@@ -9,7 +9,7 @@ Useful flags: -p -sC -A </p>
 
 <p> To answer this questions we need to scan the machine with nmap and analyze the results</p>
 ```
-nmap -A <IP> -vv
+nmap -A IP -vv
 ```
 
 **Question 1:** How many ports are open on the target machine? <br>
