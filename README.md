@@ -12,7 +12,7 @@ Useful flags: -p -sC -A </p>
 ```nmap 
 nmap -A <IP> -vv
 ```
-
+![nmap](https://user-images.githubusercontent.com/67475596/103458587-e65f9400-4d09-11eb-85da-2f2e1c717200.png)
 
 
 **Question 1:** How many ports are open on the target machine? <br>
