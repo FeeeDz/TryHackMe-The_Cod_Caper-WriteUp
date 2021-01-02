@@ -7,6 +7,11 @@ My solution for the room called "The Cod Craper" in TryHackMe
 Recommended Tool - nmap:
 Useful flags: -p -sC -A </p>
 
+<p> To answer this questions we need to scan the machine with nmap and analyze the results</p>
+```
+nmap -A <IP> -vv
+```
+
 **Question 1:** How many ports are open on the target machine? <br>
 <code> 2 </code>
 
@@ -24,5 +29,9 @@ Useful flags: -p -sC -A </p>
 <p> Since the only services running are SSH and Apache, it is safe to assume that we should check out the web server first for possible vulnerabilities. One of the first things to do is to see what pages are available to access on the web server.
 Recommended tool: gobuster
 Useful flags: -x --url --wordlist 
-				Recommended wordlist: big.txt </p>
+	
+Recommended wordlist: big.txt </p>
+
+**Question 1 :** What is the name of the important file on the server? <br>
+<code> administrator.php </code>
 
