@@ -97,6 +97,10 @@ sqlmap -r request.txt -D users -T users --dump
 
 ![sqlmap 3](https://user-images.githubusercontent.com/67475596/103477822-9a245a80-4dc2-11eb-9629-02cb1b129a2b.png)
 
+Here are the username and password !
+
+![user pass sqlmap](https://user-images.githubusercontent.com/67475596/103477845-d9eb4200-4dc2-11eb-906a-61f035ae8e09.jpg)
+
 
 **Question 1:** What is the admin username? <br>
 
