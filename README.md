@@ -106,6 +106,10 @@ Here are the username and password !
 
 **Question 2:** What is the admin password? <br>
 
+![sql1](https://user-images.githubusercontent.com/67475596/103491639-d9d05e00-4e25-11eb-88be-fbc4db8cef33.png)
+![sql2](https://user-images.githubusercontent.com/67475596/103491642-dc32b800-4e25-11eb-88b2-7026454113c4.png)
+![sql3](https://user-images.githubusercontent.com/67475596/103491644-dccb4e80-4e25-11eb-8d12-2ab8077ca7ef.png)
+
 **Question 3:** How many forms of SQLI is the form vulnerable to? <br>
 <code> 3 </code>
 
