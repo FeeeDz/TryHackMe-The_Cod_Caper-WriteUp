@@ -62,5 +62,11 @@ Recommended Tool: sqlmap
 
 Useful Flags: -u --forms --dump -a
 
+**Question 1:** What is the admin username? <br>
+
+**Question 2:** What is the admin password? <br>
+
+**Question 3:** How many forms of SQLI is the form vulnerable to? <br>
+<code> 3 </code>
 
 </p>
