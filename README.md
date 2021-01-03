@@ -76,7 +76,9 @@ but first we need to intercept the http request with burpsuite
 
 ![request](https://user-images.githubusercontent.com/67475596/103477728-cd1a1e80-4dc1-11eb-81f6-f7f78922c1bb.png)
 
-now save it in a .txt file
+now save it in a .txt file and then launch sqlmap
+
+![sqlmap 1](https://user-images.githubusercontent.com/67475596/103477764-0c486f80-4dc2-11eb-8381-22f1d908bc69.png)
 
 
 **Question 1:** What is the admin username? <br>
