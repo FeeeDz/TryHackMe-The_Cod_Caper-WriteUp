@@ -78,6 +78,11 @@ but first we need to intercept the http request with burpsuite
 
 now save it in a .txt file and then launch sqlmap
 
+```bash
+sqlmap -r request.txt -D users --tables
+```
+
+
 ![sqlmap 1](https://user-images.githubusercontent.com/67475596/103477764-0c486f80-4dc2-11eb-8381-22f1d908bc69.png)
 
 
