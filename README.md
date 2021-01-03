@@ -113,3 +113,18 @@ Here are the username and password !
 ![sql2](https://user-images.githubusercontent.com/67475596/103491642-dc32b800-4e25-11eb-88b2-7026454113c4.png)
 ![sql3](https://user-images.githubusercontent.com/67475596/103491644-dccb4e80-4e25-11eb-8d12-2ab8077ca7ef.png)
 </p>
+
+## Command Execution
+
+<p> It seems we have gained the ability to run commands! Since this is my old PC, I should still have a user account! Let's run a few test commands, and then try to gain access! </p>
+
+<p> Now we have the credentials found with sqlmap <br>
+Let's do the log in </p>
+
+**Question 1:** How many files are in the current directory? <br>
+<code> 3 </code>
+
+**Question 2:** Do I still have an account <br>
+<code> yes </code>
+
+**Question 3:** What is my ssh password? <br>
