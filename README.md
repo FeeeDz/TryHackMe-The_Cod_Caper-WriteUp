@@ -62,6 +62,16 @@ Recommended Tool: sqlmap
 
 Useful Flags: -u --forms --dump -a
 
+On the page IP/administrator.php we have an administrator login 
+
+![login](https://user-images.githubusercontent.com/67475596/103477577-8c6dd580-4dc0-11eb-9179-4bf229f46f7e.png)
+
+Let's try an SQL Injection with sqlmap
+<code> git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev </code>
+
+but first we need to intercept the http request with burpsuite
+
+
 **Question 1:** What is the admin username? <br>
 
 **Question 2:** What is the admin password? <br>
