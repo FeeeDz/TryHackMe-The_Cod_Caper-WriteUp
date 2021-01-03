@@ -14,6 +14,8 @@ nmap -A <IP> -vv
 ```
 ![nmap](https://user-images.githubusercontent.com/67475596/103458587-e65f9400-4d09-11eb-85da-2f2e1c717200.png)
 
+We can see that there are two port open, 22 with ssh service and port 80 with http
+
 
 **Question 1:** How many ports are open on the target machine? <br>
 <code> 2 </code>
