@@ -66,7 +66,7 @@ On the page IP/administrator.php we have an administrator login
 
 ![login](https://user-images.githubusercontent.com/67475596/103477577-8c6dd580-4dc0-11eb-9179-4bf229f46f7e.png)
 
-Let's try an SQL Injection with sqlmap
+Let's try an SQL Injection with sqlmap <br>
 <code> git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev </code>
 
 but first we need to intercept the http request with burpsuite
