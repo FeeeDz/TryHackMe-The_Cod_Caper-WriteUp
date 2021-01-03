@@ -121,6 +121,16 @@ Here are the username and password !
 <p> Now we have the credentials found with sqlmap <br>
 Let's do the log in </p>
 
+Ouch ... another form
+![run_command](https://user-images.githubusercontent.com/67475596/103491811-f8832480-4e26-11eb-99ef-e6f307ee9b77.png)
+
+<p> Now let's try to get a reverse shell with netcat <br>
+  but first prepare a php shell
+	
+![run command](https://user-images.githubusercontent.com/67475596/103491856-48fa8200-4e27-11eb-8d09-7379187a7886.png)
+</p>
+
+
 **Question 1:** How many files are in the current directory? <br>
 <code> 3 </code>
 
