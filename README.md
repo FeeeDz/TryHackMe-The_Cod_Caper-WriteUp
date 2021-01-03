@@ -40,14 +40,14 @@ Recommended wordlist: big.txt </p>
 ![default page](https://user-images.githubusercontent.com/67475596/103477313-f9cc3700-4dbd-11eb-877f-d61c426166f8.png)
 
 <p>If we open the ip on a browser we can see that there is the default page of Apache2 Ubuntu <br>
-Now let's scan the ip with gobuster for enumerate some directories and files</p>
-
-![gobuster](https://user-images.githubusercontent.com/67475596/103477366-9262b700-4dbe-11eb-8479-c080708fcaa9.png)
-
-Here we are.. we found the important file !
+Now let's scan the ip with gobuster for enumerate some directories and files.</p>
 ```bash 
 gobuster dir -u http://IP/ -w big.txt -x .php,.html,.txt
 ```
+![gobuster](https://user-images.githubusercontent.com/67475596/103477366-9262b700-4dbe-11eb-8479-c080708fcaa9.png)
+
+Here we are.. we found the important file !
+
 
 **Question 1 :** What is the name of the important file on the server? <br>
 <code> administrator.php </code>
