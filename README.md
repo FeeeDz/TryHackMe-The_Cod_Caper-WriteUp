@@ -37,6 +37,11 @@ Useful flags: -x --url --wordlist
 	
 Recommended wordlist: big.txt </p>
 
+![default page](https://user-images.githubusercontent.com/67475596/103477313-f9cc3700-4dbd-11eb-877f-d61c426166f8.png)
+
+<p>If we open the ip on a browser we can see that there is the default page of Apache2 Ubuntu
+Now let's scan the ip with gobuster for enumerate some directories</p>
+
 **Question 1 :** What is the name of the important file on the server? <br>
 <code> administrator.php </code>
 
