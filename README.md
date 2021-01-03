@@ -74,6 +74,10 @@ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
 but first we need to intercept the http request with burpsuite
 
+![request](https://user-images.githubusercontent.com/67475596/103477728-cd1a1e80-4dc1-11eb-81f6-f7f78922c1bb.png)
+
+now save it in a .txt file
+
 
 **Question 1:** What is the admin username? <br>
 
