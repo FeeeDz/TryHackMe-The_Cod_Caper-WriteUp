@@ -54,3 +54,13 @@ Here we are.. we found the important file !
 **Question 1 :** What is the name of the important file on the server? <br>
 <code> administrator.php </code>
 
+## Web Exploitation
+
+<p>The admin page seems to give us a login form. In situations like this it is always worth it to check for "low-hanging fruit". In the case of login forms one of the first things to check for is SQL Injection. <br>
+
+Recommended Tool: sqlmap
+
+Useful Flags: -u --forms --dump -a
+
+
+</p>
