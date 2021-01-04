@@ -138,6 +138,9 @@ Don't forget to run netcat on the attacking machine
 ![run_netcat](https://user-images.githubusercontent.com/67475596/103491944-db028a80-4e27-11eb-9bd4-928918dcc68d.png)
 </p>
 
+If everything went well then we are inside the target machine
+
+![netcat](https://user-images.githubusercontent.com/67475596/103492037-93c8c980-4e28-11eb-868b-df6845cd33a9.png)
 
 **Question 1:** How many files are in the current directory? <br>
 <code> 3 </code>
@@ -146,3 +149,7 @@ Don't forget to run netcat on the attacking machine
 <code> yes </code>
 
 **Question 3:** What is my ssh password? <br>
+<p> To answer this question I've searched into the machine <br>
+the path is the following </p>
+
+> /var/hidden/pass
