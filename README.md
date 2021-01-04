@@ -161,7 +161,8 @@ the path is the following </p>
 **Question 1:** What is the interesting path of the interesting suid file <br>
 
 <p> My solution: <br>
-first connect to the ssh with the ssh key found in <br>
+first connect to the ssh with the ssh key found in </p>
+
 > /home/pingu/.ssh/id_rsa
 
 ![ls - a](https://user-images.githubusercontent.com/67475596/103492276-fcfd0c80-4e29-11eb-8fcb-04dd1ae3199c.png)
