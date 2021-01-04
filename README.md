@@ -1,7 +1,7 @@
 # TryHackMe-The_Cod_Caper-WriteUp
 My solution for the room called "The Cod Craper" in TryHackMe <br>
 https://tryhackme.com/room/thecodcaper <br> 
-<img src="https://tryhackme-badges.s3.amazonaws.com/FeeDz.png" alt="TryHackMe">
+![thm1](https://user-images.githubusercontent.com/67475596/103531558-e71f3400-4e89-11eb-96a5-9e29f9b15173.png) ![thm2](https://user-images.githubusercontent.com/67475596/103531561-e7b7ca80-4e89-11eb-9f11-b9698347ab12.png)
 ## Host Enumeration 
 
 <p> The first step is to see what ports and services are running on the target machine. 
