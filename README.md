@@ -170,11 +170,12 @@ first connect to the ssh with the ssh key found in <br>
 
 put it in a .txt file and then log to the ssh
 
-![ssh](https://user-images.githubusercontent.com/67475596/103492363-afcd6a80-4e2a-11eb-8319-386995457d0d.png)
-
 ```bash
 ssh -i ssh_key.txt pingu@10.10.214.187
 ```
+
+![ssh](https://user-images.githubusercontent.com/67475596/103492363-afcd6a80-4e2a-11eb-8319-386995457d0d.png)
+
 
     
    
