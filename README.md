@@ -161,12 +161,20 @@ the path is the following </p>
 **Question 1:** What is the interesting path of the interesting suid file <br>
 
 <p> My solution: <br>
-first connetect to the ssh with the ssh key found in 
+first connect to the ssh with the ssh key found in <br>
 > /home/pingu/.ssh/id_rsa
 
 ![ls - a](https://user-images.githubusercontent.com/67475596/103492276-fcfd0c80-4e29-11eb-8fcb-04dd1ae3199c.png)
 
 ![Inkedkey rsa_LI](https://user-images.githubusercontent.com/67475596/103492303-33d32280-4e2a-11eb-8cda-955e245bf62b.jpg)
- 
+
+put it in a .txt file and then log to the ssh
+
+![ssh](https://user-images.githubusercontent.com/67475596/103492363-afcd6a80-4e2a-11eb-8319-386995457d0d.png)
+
+```bash
+ssh -i ssh_key.txt pingu@10.10.214.187
+```
+
     
    
