@@ -177,6 +177,38 @@ ssh -i ssh_key.txt pingu@IP
 
 ![ssh](https://user-images.githubusercontent.com/67475596/103492363-afcd6a80-4e2a-11eb-8319-386995457d0d.png)
 
+Now we have to found the path of the suid file 
+a SUID is a special file permission for executable files which enables other users to run the file with effective permissions of the file owner.
 
+I've searched on the internet and I found this command that permits to list all binaries with SUID permission.
+
+```bash
+find / -perm -u=s -type f 2>/dev/null
+```
+![suidfiles](https://user-images.githubusercontent.com/67475596/103530465-c7870c00-4e87-11eb-9dba-cd558909834c.png)
+
+## pwndbg
+
+> No answer needed
+
+## Binary-Exploitaion: Manually 
+
+> No answer needed
+
+## Binary Exploitation: The pwntools way
+
+> No answer needed
+
+ ## Finishing the job 
+ 
+ Now that we have the password hashes, we can crack them and get the root password! Recall from the previous outputs that our root password hash is
+
+> $6$rFK4s/vE$zkh2/RBiRZ746OW3/Q/zqTRVfrfYJfFjFc2/q.oYtoF1KglS3YWoExtT3cvA3ml9UtDS8PFzCk902AsWx00Ck.
+
+Usage: hashcat {flags} {hashfile} {wordlist}
+
+Hint: the hashcat mode is 1800
+
+Enjoy
     
    
