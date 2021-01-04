@@ -153,3 +153,20 @@ If everything went well then we are inside the target machine
 the path is the following </p>
 
 > /var/hidden/pass
+
+![pass ssh](https://user-images.githubusercontent.com/67475596/103492201-85c77880-4e29-11eb-9f81-0afbb665caa3.jpg)
+
+## LinEnum
+
+**Question 1:** What is the interesting path of the interesting suid file <br>
+
+<p> My solution: <br>
+first connetect to the ssh with the ssh key found in 
+> /home/pingu/.ssh/id_rsa
+
+![ls - a](https://user-images.githubusercontent.com/67475596/103492276-fcfd0c80-4e29-11eb-8fcb-04dd1ae3199c.png)
+
+![Inkedkey rsa_LI](https://user-images.githubusercontent.com/67475596/103492303-33d32280-4e2a-11eb-8cda-955e245bf62b.jpg)
+ 
+    
+   
